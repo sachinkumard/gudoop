@@ -359,7 +359,7 @@ public class PageRankMock<T> {
 		qurrM.setName("初始化pagerank向量");
 		
 		PageRankMock<Double> prm = new PageRankMock<Double>(SM, UM, qurrM);
-		prm.setAlapha(0.56);
+		prm.setAlapha(0.06);
 		
 		
 		//初始化GOOGLE矩阵
